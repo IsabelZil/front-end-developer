@@ -4,14 +4,17 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 600px) {
-  h1,
-  h2,
-  h3,
+  .h1text,
+  .h2text,
+  .h3text,
   p {
     text-align: center;
   }
   img {
     display: none;
+  }
+  .h1text {
+    font-size: 48px;
   }
 }
 
