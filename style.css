@@ -3,9 +3,18 @@
   --secondary-color: hsl(243, 88%, 97%);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-html {
-  display: block;
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
 }
+
 body {
   display: block;
   padding-top: 100px;
@@ -21,7 +30,7 @@ h3 {
 }
 
 p {
-  border-radius: 4px; 
+  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
@@ -76,7 +85,9 @@ p {
   margin: 20px;
   text-align: center;
 }
-
+.contact {
+  margin-bottom: 30px;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -90,7 +101,4 @@ p {
 }
 .images-about {
   box-shadow: var(--box-shadow);
-}
-#contact {
-  margin-bottom: 30px;
 }
