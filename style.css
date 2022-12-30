@@ -13,6 +13,10 @@
   .h1text {
     font-size: 48px;
   }
+  .navigation-links {
+    display: block;
+    text-align: center;
+  }
 }
 
 body {
@@ -90,8 +94,8 @@ p {
 }
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .navigation-links a {
