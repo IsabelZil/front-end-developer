@@ -3,21 +3,6 @@
   --secondary-color: hsl(243, 88%, 97%);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 768px) {
-  .h1text,
-  .h2text,
-  .h3text,
-  p {
-    text-align: center;
-  }
-  .h1text {
-    font-size: 48px;
-  }
-  .navigation-links {
-    display: block;
-    text-align: center;
-  }
-}
 
 body {
   display: block;
@@ -29,7 +14,14 @@ h2,
 h3 {
   margin: 0;
 }
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
 h3 {
+  font-size: 24px;
   opacity: 0.7;
 }
 
@@ -73,15 +65,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.h1text {
-  font-size: 96px;
-}
-.h2text {
-  font-size: 48px;
-}
-.h3text {
-  font-size: 24px;
-}
+
 .images-about {
   box-shadow: var(--box-shadow);
 }
@@ -104,4 +88,19 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  p,
+  .h1text,
+  .h2text,
+  .h3text {
+    text-align: center;
+  }
+  .h1text {
+    font-size: 48px;
+  }
+  .navigation-links {
+    display: block;
+    text-align: center;
+  }
 }
