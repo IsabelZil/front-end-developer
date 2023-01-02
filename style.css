@@ -91,16 +91,22 @@ p {
 }
 @media (max-width: 768px) {
   p,
-  .h1text,
-  .h2text,
-  .h3text {
+  h1,
+  h2,
+  h3 {
     text-align: center;
   }
-  .h1text {
-    font-size: 48px;
+  h1 {
+    font-size: 50px;
   }
-  .navigation-links {
-    display: block;
-    text-align: center;
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .contact-link {
+    display:flex;
+    justify-content: center;
   }
 }
