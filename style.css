@@ -41,9 +41,11 @@ p {
   margin: 20px;
   text-align: center;
 }
+
 .contact {
   margin-bottom: 30px;
 }
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -106,8 +108,11 @@ p {
     font-size: 18px;
   }
   .contact-link {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin: 0 30px;
+  }
+  .container-content {
+    text-align: center;
   }
 }
