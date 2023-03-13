@@ -91,6 +91,11 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.photoMe {
+  width: 60px;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   p,
   h1,
