@@ -54,6 +54,10 @@ p {
 .contact {
   margin-bottom: 30px;
 }
+.container-content{
+  border-radius: 10px;
+  border: 2pt solid var(--green-color);
+}
 
 .contact-link {
   background: var(--green-color);
@@ -81,6 +85,9 @@ p {
 .images-about {
   box-shadow: var(--box-shadow);
 }
+.inlineBox{
+  
+}
 .navbar-color {
   background: var(--green-color);
 }
@@ -105,7 +112,12 @@ p {
   width: 60px;
   border-radius: 50%;
 }
-
+.outlineBox {
+  padding: 100px;
+  margin: 10px auto;
+  
+  background-color: var(--dark-color);
+}
 @media (max-width: 768px) {
   p,
   h1,
