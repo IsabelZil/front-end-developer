@@ -55,7 +55,6 @@ p {
 }
 .container-content{
   border-radius: 10px;
-  border: 2pt solid var(--green-color);
 }
 
 .contact-link {
@@ -84,6 +83,7 @@ p {
 .images-about {
   box-shadow: var(--box-shadow);
 }
+
 .navbar-color {
   background: var(--green-color);
 }
