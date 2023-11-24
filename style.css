@@ -1,6 +1,6 @@
 :root {
-  --orange-color: rgb(192, 141, 131);
-  --green-color: rgb(195, 205, 116);
+  --orange-color: rgb(230, 72, 41);
+  --green-color: rgb(225, 237, 137);
   --blue-color: rgb(84, 132, 209);
   --dark-color: rgb(42, 40, 45);
   --grey-color: rgb(148 148 162);
@@ -22,7 +22,8 @@ h2 {
   color: var(--blue-color);
 }
 h1 {
-  font-size: 96px;
+  font-size: 120px;
+  font-stretch: expanded;
 }
 h2 {
   font-size: 48px;
@@ -41,8 +42,14 @@ p {
 }
 
 .about-link {
-  color: var(--green-color);
-  border: 1px solid var(--green-color);
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+  font-weight:600;
+  
+}
+.about-link:hover{
+  color: var(--orange-color);
+  border: 1px solid var(--orange-color);
 }
 .about-paragraphs p {
   margin: 20px;
@@ -57,14 +64,19 @@ p {
 }
 
 .contact-link {
-  background: var(--green-color);
+  background: var(--orange-color);
   box-shadow: var(--box-shadow);
-  color: var(--dark-color);
+  color: var(--green-color);
   margin: 0px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-weight:600;
+}
+.contact-link:hover{
+  color:white;
+  opacity: 0.8;
 }
 
 .email-link {
@@ -77,6 +89,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  
 }
 
 .images-about {
