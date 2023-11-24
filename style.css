@@ -10,7 +10,6 @@
 body {
   display: block;
   padding-top: 100px;
-  background-color: var(--dark-color);
 }
 
 h1,
@@ -108,11 +107,7 @@ p {
   width: 60px;
   border-radius: 50%;
 }
-.outlineBox {
-  padding: 100px;
-  margin: 10px auto;
-  background-color: var(--dark-color);
-}
+
 @media (max-width: 768px) {
   p,
   h1,
