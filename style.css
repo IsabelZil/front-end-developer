@@ -44,10 +44,9 @@ p {
 .about-link {
   color: var(--dark-color);
   border: 1px solid var(--dark-color);
-  font-weight:600;
-  
+  font-weight: 600;
 }
-.about-link:hover{
+.about-link:hover {
   color: var(--orange-color);
   border: 1px solid var(--orange-color);
 }
@@ -59,9 +58,6 @@ p {
 .contact {
   margin-bottom: 30px;
 }
-.container-content{
-  border-radius: 10px;
-}
 
 .contact-link {
   background: var(--orange-color);
@@ -72,10 +68,10 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  font-weight:600;
+  font-weight: 600;
 }
-.contact-link:hover{
-  color:white;
+.contact-link:hover {
+  color: white;
   opacity: 0.8;
 }
 
@@ -89,7 +85,6 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-  
 }
 
 .images-about {
