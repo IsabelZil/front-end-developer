@@ -3,7 +3,7 @@
   --green-color: rgb(225, 237, 137);
   --blue-color: rgb(84, 132, 209);
   --grey-color: rgb(148 148 162);
-  --box-shadow: 0 5px 10px rgba(148, 148, 162, 0.7);
+  --box-shadow: 10px 5px 10px rgba(148, 148, 162, 0.8);
 }
 
 body {
@@ -36,7 +36,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin: 0px 0px 16px;
-  color: var(--orange-color);
 }
 
 .about-link {
@@ -53,7 +52,7 @@ p {
   text-align: center;
 }
 
-.contact {
+.about-contact {
   margin-bottom: 30px;
 }
 .contact-link {
