@@ -144,9 +144,6 @@ p {
     justify-content: center;
     margin: 0px 100px;
   }
-  .container-content {
-    text-align: center;
-  }
   .textApps{
   border: 2px solid var(--orange-color);
   padding-top: 20px;
