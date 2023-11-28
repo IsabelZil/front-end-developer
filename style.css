@@ -119,6 +119,9 @@ p {
 .photosApps{
   border: 40px solid var(--blue-color);
 }
+.textApps{
+  border: none;
+}
 
 @media (max-width: 768px) {
   p,
@@ -144,4 +147,9 @@ p {
   .container-content {
     text-align: center;
   }
+  .textApps{
+  border: 2px solid var(--orange-color);
+  padding-top: 20px;
+  border-radius: 8px;
+}
 }
