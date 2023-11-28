@@ -130,7 +130,7 @@ border-radius: 10px;
     text-align: center;
   }
   h1 {
-    font-size: 50px;
+    font-size: 80px;
   }
   h2 {
     font-size: 30px;
@@ -138,10 +138,10 @@ border-radius: 10px;
   h3 {
     font-size: 18px;
   }
-  .contact-link {
+  .launch-link {
     display: flex;
     justify-content: center;
-    margin: 0 30px;
+    margin: 0px 100px;
   }
   .container-content {
     text-align: center;
