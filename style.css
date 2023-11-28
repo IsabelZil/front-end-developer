@@ -118,7 +118,6 @@ p {
 }
 .photosApps{
   border: 40px solid var(--blue-color);
-border-radius: 10px;
 }
 
 @media (max-width: 768px) {
