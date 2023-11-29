@@ -94,6 +94,8 @@ p {
 
 .images-about {
   box-shadow: var(--box-shadow);
+  padding: 20px;
+  margin: 50px;
 }
 
 .navigation-links {
