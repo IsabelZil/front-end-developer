@@ -1,5 +1,5 @@
 :root {
-  --orange-color:#DA3B1B;
+  --orange-color: #da3b1b;
   --green-color: rgb(225, 237, 137);
   --blue-color: rgb(84, 132, 209);
   --grey-color: rgb(148 148 162);
@@ -53,6 +53,16 @@ p {
 .about-contact {
   margin-bottom: 30px;
 }
+
+.buttonsApp {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.buttonsApp img {
+  margin: auto;
+  display: block;
+}
 .contact-link {
   background-color: var(--blue-color);
   color: white;
@@ -63,21 +73,6 @@ p {
   background-color: var(--orange-color);
   color: white;
   border: 1px solid var(--orange-color);
-}
-
-.launch-link {
-  background: var(--orange-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-.launch-link:hover {
-  color: white;
-  opacity: 0.8;
 }
 
 .email-link {
@@ -93,9 +88,24 @@ p {
 }
 
 .images-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.launch-link {
+  background: var(--orange-color);
   box-shadow: var(--box-shadow);
-  padding: 20px;
-  margin: 50px;
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+}
+.launch-link:hover {
+  color: white;
+  opacity: 0.8;
 }
 
 .navigation-links {
@@ -116,10 +126,10 @@ p {
   width: 60px;
   border-radius: 50%;
 }
-.photosApps{
+.photosApps {
   border: 40px solid var(--blue-color);
 }
-.textApps{
+.textApps {
   border: none;
 }
 
@@ -139,14 +149,19 @@ p {
   h3 {
     font-size: 18px;
   }
+
   .launch-link {
     display: flex;
     justify-content: center;
+  }
+
+  .launch-link {
     margin: 0px 100px;
   }
-  .textApps{
-  border: 2px solid var(--orange-color);
-  padding-top: 20px;
-  border-radius: 8px;
-}
+
+  .textApps {
+    border: 2px solid var(--orange-color);
+    padding-top: 20px;
+    border-radius: 8px;
+  }
 }
