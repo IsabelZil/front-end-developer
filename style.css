@@ -1,5 +1,5 @@
 :root {
-  --orange-color: rgb(230, 72, 40);
+  --orange-color:#DA3B1B;
   --green-color: rgb(225, 237, 137);
   --blue-color: rgb(84, 132, 209);
   --grey-color: rgb(148 148 162);
@@ -29,6 +29,7 @@ h2 {
 h3 {
   font-size: 20px;
   color: var(--orange-color);
+  font-weight: 700;
 }
 
 p {
