@@ -44,6 +44,7 @@ p {
   color: var(--blue-color);
   border: 1px solid var(--blue-color);
   font-weight: 700;
+  text-align: center;
 }
 .about-link:hover {
   color: var(--orange-color);
@@ -52,6 +53,7 @@ p {
 
 .about-contact {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .buttonsApp {
@@ -68,6 +70,7 @@ p {
   color: white;
   border: 1px solid var(--blue-color);
   font-weight: 600;
+  text-align: center;
 }
 .contact-link:hover {
   background-color: var(--orange-color);
@@ -76,8 +79,6 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
   color: var(--orange-color);
   font-size: 28px;
   text-decoration: none;
@@ -85,11 +86,6 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-}
-
-.images-about {
-  display: flex;
-  justify-content: space-between;
 }
 
 .launch-link {
@@ -156,7 +152,7 @@ p {
   }
 
   .launch-link {
-    margin: 0px 100px;
+    margin: 0px 60px;
   }
 
   .textApps {
