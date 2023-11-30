@@ -149,9 +149,6 @@ p {
   .launch-link {
     display: flex;
     justify-content: center;
-  }
-
-  .launch-link {
     margin: 0px 60px;
   }
 
