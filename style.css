@@ -40,31 +40,33 @@ p {
   margin: 0px 0px 16px;
 }
 
+.about-contact {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .about-link {
   color: var(--blue-color);
   border: 1px solid var(--blue-color);
   font-weight: 700;
   text-align: center;
 }
+
 .about-link:hover {
   color: var(--orange-color);
   border: 1px solid var(--orange-color);
 }
 
-.about-contact {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.buttonsApp {
+.divMargins {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.buttonsApp img {
+.divMargins img {
   margin: auto;
   display: block;
 }
+
 .contact-link {
   background-color: var(--blue-color);
   color: white;
@@ -72,6 +74,7 @@ p {
   font-weight: 600;
   text-align: center;
 }
+
 .contact-link:hover {
   background-color: var(--orange-color);
   color: white;
@@ -99,6 +102,7 @@ p {
   font-weight: 600;
   text-align: center;
 }
+
 .launch-link:hover {
   color: white;
   opacity: 0.8;
@@ -157,5 +161,14 @@ p {
     padding-top: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
+  }
+  
+  .first {
+    display: grid;
+    justify-content: center;
+  }
+  .second{
+    margin-bottom: 0px;
+    margin-top:10px;
   }
 }
