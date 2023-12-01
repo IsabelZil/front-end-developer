@@ -133,6 +133,10 @@ p {
   border: none;
 }
 
+.textMeMargins{
+  margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
   p,
   h1,
@@ -170,5 +174,8 @@ p {
   .second{
     margin-bottom: 0px;
     margin-top:10px;
+  }
+  .textMeMargins{
+    margin-bottom:0px;
   }
 }
