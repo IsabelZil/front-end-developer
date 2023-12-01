@@ -57,16 +57,6 @@ p {
   border: 1px solid var(--orange-color);
 }
 
-.divMargins {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-.divMargins img {
-  margin: auto;
-  display: block;
-}
-
 .contact-link {
   background-color: var(--blue-color);
   color: white;
@@ -79,6 +69,16 @@ p {
   background-color: var(--orange-color);
   color: white;
   border: 1px solid var(--orange-color);
+}
+
+.divMargins {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.divMargins img {
+  margin: auto;
+  display: block;
 }
 
 .email-link {
@@ -122,13 +122,16 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 .photoMe {
   width: 60px;
   border-radius: 50%;
 }
+
 .photosApps {
   border: 40px solid var(--blue-color);
 }
+
 .textApps {
   border: none;
 }
