@@ -88,7 +88,7 @@ footer {
 
 .divMargins {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .divMargins img {
@@ -204,7 +204,6 @@ footer {
     border: 2px solid var(--orange-color);
     padding-top: 20px;
     border-radius: 8px;
-    margin-bottom: 30px;
   }
 
   .socialMedia-links {
