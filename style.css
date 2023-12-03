@@ -158,6 +158,13 @@ footer {
   color: var(--orange-color);
   font-weight: 700;
 }
+
+.socialMedia-box{
+  margin: 50px;
+  padding: 30px 15px;
+  border:  2px solid var(--orange-color);
+}
+
 .textApps {
   border: none;
 }
@@ -205,6 +212,10 @@ footer {
   .second {
     margin-bottom: 0px;
     margin-top: 10px;
+  }
+
+  .socialMedia-box{
+    border-radius: 8px;
   }
 
   .textMeMargins {
