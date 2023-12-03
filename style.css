@@ -1,8 +1,6 @@
 :root {
   --orange-color: #da3b1b;
-  --green-color: rgb(225, 237, 137);
   --blue-color: rgb(84, 132, 209);
-  --grey-color: rgb(148 148 162);
   --box-shadow: 10px 5px 10px rgba(148, 148, 162, 0.8);
   --transition-type: all 100ms ease-in-out;
 }
@@ -40,12 +38,21 @@ h4 {
   color: var(--blue-color);
 }
 
+li {
+  list-style: none;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
 p {
-  border-radius: 4px;
   font-size: 15px;
   line-height: 1.5;
   margin: 0px 0px 16px;
 }
+
 footer {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -80,8 +87,8 @@ footer {
 }
 
 .divMargins {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .divMargins img {
@@ -159,18 +166,14 @@ footer {
   font-weight: 700;
 }
 
-.socialMedia-box {
-  margin: 50px;
+.socialMedia-links {
+  margin: 20px;
   padding: 30px 15px;
   border: 2px solid var(--orange-color);
 }
 
 .textApps {
   border: none;
-}
-
-.textMeMargins {
-  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -204,21 +207,8 @@ footer {
     margin-bottom: 30px;
   }
 
-  .first {
-    display: grid;
-    justify-content: center;
-  }
-
-  .second {
-    margin-bottom: 0px;
-    margin-top: 10px;
-  }
-
-  .socialMedia-box {
+  .socialMedia-links {
     border-radius: 8px;
   }
 
-  .textMeMargins {
-    margin-bottom: 0px;
-  }
 }
