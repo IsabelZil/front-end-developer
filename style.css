@@ -4,7 +4,7 @@
   --blue-color: rgb(84, 132, 209);
   --grey-color: rgb(148 148 162);
   --box-shadow: 10px 5px 10px rgba(148, 148, 162, 0.8);
-  --transition-type: transition: all 100ms ease-in-out;
+  --transition-type: all 100ms ease-in-out;
 }
 
 body {
@@ -13,7 +13,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 h1,
@@ -25,26 +26,29 @@ h1 {
   font-stretch: expanded;
 }
 h2 {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 15px;
 }
+
 h3 {
-  font-size: 20px;
-  color: var(--orange-color);
-  font-weight: 700;
+  font-size: 35px;
+  color: var(--blue-color);
+}
+
+h4 {
+  font-size: 18px;
+  color: var(--blue-color);
 }
 
 p {
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 0px 0px 16px;
 }
-
-.about-contact {
-  margin-bottom: 30px;
-  text-align: center;
-  transition: var(--transition-type);
+footer {
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .about-link {
@@ -87,7 +91,6 @@ p {
 
 .email-link {
   color: var(--orange-color);
-  font-size: 28px;
   text-decoration: none;
   transition: var(--transition-type);
 }
@@ -105,7 +108,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   text-align: center;
-  transition:  var(--transition-type);
+  transition: var(--transition-type);
 }
 
 .launch-link:hover {
@@ -118,7 +121,6 @@ p {
   justify-content: center;
   margin-bottom: 40px;
   margin-top: 10px;
-  transition: var(--transition-type);
 }
 
 .navigation-links a {
@@ -137,25 +139,30 @@ p {
   border: 40px solid var(--blue-color);
 }
 
-.socialMedia-links{
- margin: 0 20px;
-  color: var();
-  background: var();
-  padding: 10px 14px;
+.socialMedia-links a {
+  margin: 0 20px;
+  color: white;
+  background: var(--orange-color);
+  padding: 8px 12px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 10px;
   transition: var(--transition-type);
 }
 
-.socialMedia-links:hover{
-
+.socialMedia-links a:hover {
+  color: white;
+  opacity: 0.8;
 }
 
+.socialMedia-links h4 {
+  color: var(--orange-color);
+  font-weight: 700;
+}
 .textApps {
   border: none;
 }
 
-.textMeMargins{
+.textMeMargins {
   margin-bottom: 50px;
 }
 
@@ -163,17 +170,18 @@ p {
   p,
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     text-align: center;
   }
   h1 {
     font-size: 80px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .launch-link {
@@ -188,18 +196,18 @@ p {
     border-radius: 8px;
     margin-bottom: 30px;
   }
-  
+
   .first {
     display: grid;
     justify-content: center;
   }
 
-  .second{
+  .second {
     margin-bottom: 0px;
-    margin-top:10px;
+    margin-top: 10px;
   }
-  
-  .textMeMargins{
-    margin-bottom:0px;
+
+  .textMeMargins {
+    margin-bottom: 0px;
   }
 }
