@@ -4,6 +4,7 @@
   --blue-color: rgb(84, 132, 209);
   --grey-color: rgb(148 148 162);
   --box-shadow: 10px 5px 10px rgba(148, 148, 162, 0.8);
+  --transition-type: transition: all 100ms ease-in-out;
 }
 
 body {
@@ -43,6 +44,7 @@ p {
 .about-contact {
   margin-bottom: 30px;
   text-align: center;
+  transition: var(--transition-type);
 }
 
 .about-link {
@@ -50,6 +52,7 @@ p {
   border: 1px solid var(--blue-color);
   font-weight: 700;
   text-align: center;
+  transition: var(--transition-type);
 }
 
 .about-link:hover {
@@ -63,6 +66,7 @@ p {
   border: 1px solid var(--blue-color);
   font-weight: 600;
   text-align: center;
+  transition: var(--transition-type);
 }
 
 .contact-link:hover {
@@ -85,6 +89,7 @@ p {
   color: var(--orange-color);
   font-size: 28px;
   text-decoration: none;
+  transition: var(--transition-type);
 }
 
 .email-link:hover {
@@ -100,6 +105,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   text-align: center;
+  transition:  var(--transition-type);
 }
 
 .launch-link:hover {
@@ -112,6 +118,7 @@ p {
   justify-content: center;
   margin-bottom: 40px;
   margin-top: 10px;
+  transition: var(--transition-type);
 }
 
 .navigation-links a {
@@ -137,7 +144,11 @@ p {
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: 
+  transition: var(--transition-type);
+}
+
+.socialMedia-links:hover{
+
 }
 
 .textApps {
