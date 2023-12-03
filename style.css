@@ -51,6 +51,7 @@ p {
   font-size: 15px;
   line-height: 1.5;
   margin: 0px 0px 16px;
+  padding-bottom: 20px;
 }
 
 footer {
@@ -70,6 +71,7 @@ footer {
   color: var(--orange-color);
   border: 1px solid var(--orange-color);
 }
+
 
 .contact-link {
   background-color: var(--blue-color);
@@ -91,7 +93,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.divMargins img {
+.divMargins img, .about-photoMe img {
   margin: auto;
   display: block;
 }
@@ -204,6 +206,7 @@ footer {
     border: 2px solid var(--orange-color);
     padding-top: 20px;
     border-radius: 8px;
+    padding: 20px;
   }
 
   .socialMedia-links {
