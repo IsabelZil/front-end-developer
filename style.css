@@ -98,7 +98,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   font-weight: 600;
   text-align: center;
 }
@@ -120,7 +119,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
 }
 
 .photoMe {
@@ -174,10 +172,12 @@ p {
     display: grid;
     justify-content: center;
   }
+
   .second{
     margin-bottom: 0px;
     margin-top:10px;
   }
+  
   .textMeMargins{
     margin-bottom:0px;
   }
