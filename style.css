@@ -72,7 +72,6 @@ footer {
   border: 1px solid var(--orange-color);
 }
 
-
 .contact-link {
   background-color: var(--blue-color);
   color: white;
@@ -93,7 +92,8 @@ footer {
   margin-bottom: 20px;
 }
 
-.divMargins img, .about-photoMe img {
+.divMargins img,
+.about-photoMe img {
   margin: auto;
   display: block;
 }
@@ -213,4 +213,11 @@ footer {
     border-radius: 8px;
   }
 
+  .underConstructionH1 {
+    font-size: 45px;
+  }
+
+  .underConstructionH2{
+    font-size: 30px;
+  }
 }
